@@ -1,0 +1,255 @@
+{
+	"$NodeId":	"Exported.Density-ed27c3c9-2416-4644-ac84-4e381c084b99",
+	"Type":	"Exported",
+	"ExportAs":	"Thread-Map",
+	"SingleInstance":	true,
+	"Skip":	false,
+	"Inputs":	[{
+			"$NodeId":	"SumDensityNode-55457bcf-e21e-4eb7-a9a6-171435721bb6",
+			"Type":	"Sum",
+			"Skip":	false,
+			"Inputs":	[{
+					"$NodeId":	"CurveMapper.Density-06a07abb-d3a7-48a7-bcea-993492f3c5e7",
+					"Type":	"CurveMapper",
+					"Skip":	false,
+					"Curve":	{
+						"$NodeId":	"ManualCurve-4ac0730b-04a8-4dca-b602-4e017fc08c8f",
+						"Type":	"Manual",
+						"Points":	[{
+								"$NodeId":	"CurvePoint-bb4ca17e-43a5-470f-9e40-d76aa5231aa3",
+								"In":	0,
+								"Out":	1
+							}, {
+								"$NodeId":	"CurvePoint-971591d7-79d3-4e62-bef0-47d5b7fa5b12",
+								"In":	0.002,
+								"Out":	0
+							}]
+					},
+					"Inputs":	[{
+							"$NodeId":	"AbsDensityNode-8a41a84e-2c8f-48c2-8163-0cee01739c95",
+							"Type":	"Abs",
+							"Skip":	false,
+							"Inputs":	[{
+									"$NodeId":	"SimplexNoise3DDensityNode-4ada9367-7454-4b21-980a-2560dbe9416e",
+									"Type":	"SimplexNoise3D",
+									"Skip":	false,
+									"Lacunarity":	1,
+									"Persistence":	0.5,
+									"Octaves":	2,
+									"ScaleXZ":	4096,
+									"ScaleY":	16,
+									"Seed":	"A"
+								}]
+						}]
+				}, {
+					"$NodeId":	"CurveMapper.Density-8b53e3e3-bfe9-48cb-be38-b8bd2d1a85a1",
+					"Type":	"CurveMapper",
+					"Skip":	false,
+					"Curve":	{
+						"$NodeId":	"ManualCurve-8e51a75c-9a3d-4b61-90e5-7d4b0510a47a",
+						"Type":	"Manual",
+						"Points":	[{
+								"$NodeId":	"CurvePoint-bf0124d2-0163-43db-a317-9b4fbba38993",
+								"In":	0,
+								"Out":	-1
+							}, {
+								"$NodeId":	"CurvePoint-4cbd53e9-001a-49af-808e-0dc7f3b20267",
+								"In":	40,
+								"Out":	-0.6
+							}, {
+								"$NodeId":	"CurvePoint-d00db1c5-908d-40b6-8ca5-58a7197d4636",
+								"In":	240,
+								"Out":	-0.1
+							}, {
+								"$NodeId":	"CurvePoint-86ee9af4-daf2-447c-8873-4e265718464d",
+								"In":	280,
+								"Out":	-1
+							}]
+					},
+					"Inputs":	[{
+							"$NodeId":	"YValue.Density-8b43c4fd-e647-4f10-937a-13df14ab5545",
+							"Type":	"YValue",
+							"Skip":	false
+						}]
+				}]
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Exported.Density-ed27c3c9-2416-4644-ac84-4e381c084b99":	{
+				"$Position":	{
+					"$x":	-4191,
+					"$y":	-5985
+				},
+				"$Title":	"[ROOT] Exported Density"
+			},
+			"SumDensityNode-55457bcf-e21e-4eb7-a9a6-171435721bb6":	{
+				"$Position":	{
+					"$x":	-3452,
+					"$y":	-5989
+				}
+			},
+			"CurveMapper.Density-06a07abb-d3a7-48a7-bcea-993492f3c5e7":	{
+				"$Position":	{
+					"$x":	-2809,
+					"$y":	-5987
+				}
+			},
+			"ManualCurve-4ac0730b-04a8-4dca-b602-4e017fc08c8f":	{
+				"$Position":	{
+					"$x":	-2135,
+					"$y":	-5613
+				}
+			},
+			"CurvePoint-bb4ca17e-43a5-470f-9e40-d76aa5231aa3":	{
+				"$Position":	{
+					"$x":	-1475,
+					"$y":	-5618
+				}
+			},
+			"CurvePoint-971591d7-79d3-4e62-bef0-47d5b7fa5b12":	{
+				"$Position":	{
+					"$x":	-1471,
+					"$y":	-5446
+				}
+			},
+			"AbsDensityNode-8a41a84e-2c8f-48c2-8163-0cee01739c95":	{
+				"$Position":	{
+					"$x":	-2128,
+					"$y":	-5986
+				}
+			},
+			"SimplexNoise3DDensityNode-4ada9367-7454-4b21-980a-2560dbe9416e":	{
+				"$Position":	{
+					"$x":	-1472,
+					"$y":	-5988
+				}
+			},
+			"CurveMapper.Density-8b53e3e3-bfe9-48cb-be38-b8bd2d1a85a1":	{
+				"$Position":	{
+					"$x":	-2736,
+					"$y":	-5408
+				}
+			},
+			"ManualCurve-8e51a75c-9a3d-4b61-90e5-7d4b0510a47a":	{
+				"$Position":	{
+					"$x":	-2091,
+					"$y":	-5199
+				}
+			},
+			"CurvePoint-bf0124d2-0163-43db-a317-9b4fbba38993":	{
+				"$Position":	{
+					"$x":	-1425,
+					"$y":	-5204
+				}
+			},
+			"CurvePoint-4cbd53e9-001a-49af-808e-0dc7f3b20267":	{
+				"$Position":	{
+					"$x":	-1423,
+					"$y":	-5033
+				}
+			},
+			"CurvePoint-d00db1c5-908d-40b6-8ca5-58a7197d4636":	{
+				"$Position":	{
+					"$x":	-1423,
+					"$y":	-4877
+				}
+			},
+			"CurvePoint-86ee9af4-daf2-447c-8873-4e265718464d":	{
+				"$Position":	{
+					"$x":	-1421,
+					"$y":	-4718
+				}
+			},
+			"YValue.Density-8b43c4fd-e647-4f10-937a-13df14ab5545":	{
+				"$Position":	{
+					"$x":	-2078,
+					"$y":	-5411
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[{
+				"$Position":	{
+					"$x":	750337,
+					"$y":	743170.5
+				},
+				"$width":	1520.6875,
+				"$height":	386.875,
+				"$name":	"Comment",
+				"$text":	"Use the river noise as the controller to save performance, mixing in a solid -0.3",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	749741.5,
+					"$y":	743999.875
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Mix a solid value using river Noise",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	749066.25,
+					"$y":	745239.625
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Mix in  the entire ocean field to ensure shores are being mapped",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	748431.625,
+					"$y":	745456.75
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	""
+			}, {
+				"$Position":	{
+					"$x":	749060.125,
+					"$y":	746350.25
+				},
+				"$width":	1178.0625,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"TODO: Evaluate mixing in solid values instead of duplicating the ocean as a mask",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	746517.375,
+					"$y":	743579.5
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	""
+			}, {
+				"$Position":	{
+					"$x":	746506,
+					"$y":	744291
+				},
+				"$width":	1035.6875,
+				"$height":	257.9375,
+				"$name":	"Comment",
+				"$text":	"Ensure entire field is 2D",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	747724.5,
+					"$y":	744293.75
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Debug Scaler",
+				"$fontSize":	53
+			}],
+		"$WorkspaceID":	"HytaleGenerator - Density"
+	}
+}
