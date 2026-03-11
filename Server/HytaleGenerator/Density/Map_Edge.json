@@ -1,0 +1,196 @@
+{
+	"$NodeId":	"Exported.Density-ed27c3c9-2416-4644-ac84-4e381c084b99",
+	"Type":	"Exported",
+	"ExportAs":	"Edge-Map",
+	"SingleInstance":	true,
+	"Skip":	false,
+	"Inputs":	[{
+			"$NodeId":	"ClampDensityNode-affec01a-7109-4b54-bb8c-5d5c71fd4d7a",
+			"Type":	"Clamp",
+			"Skip":	false,
+			"WallA":	-1,
+			"WallB":	1,
+			"Inputs":	[{
+					"$NodeId":	"SumDensityNode-a14d06ef-907e-4883-a068-186fc0ea1166",
+					"Type":	"Sum",
+					"Skip":	false,
+					"Inputs":	[{
+							"$NodeId":	"CellNoise3DDensityNode-cddd136a-4674-4525-afaf-3aa2d0c648d0",
+							"Type":	"CellNoise3D",
+							"Skip":	false,
+							"ScaleX":	32,
+							"ScaleY":	32,
+							"ScaleZ":	32,
+							"Jitter":	0.5,
+							"CellType":	"CellValue",
+							"Octaves":	2,
+							"Seed":	"A"
+						}, {
+							"$NodeId":	"CurveMapper.Density-ead46712-65f5-45fc-b47b-76a300c93c6e",
+							"Type":	"CurveMapper",
+							"Skip":	false,
+							"Curve":	{
+								"$NodeId":	"ManualCurve-f8ca3042-6ef3-49cc-92c8-b29e389955fb",
+								"Type":	"Manual",
+								"Points":	[{
+										"$NodeId":	"CurvePoint-f09e69d8-ade4-49ea-8537-7832c983a9b3",
+										"In":	0,
+										"Out":	-1
+									}, {
+										"$NodeId":	"CurvePoint-92e7f706-6e49-4aa2-80d8-a9911967ff8e",
+										"In":	32,
+										"Out":	1
+									}]
+							},
+							"Inputs":	[{
+									"$NodeId":	"DistanceToBiomeEdge.Density-5f3ebffa-f041-4195-8ae7-22294755e8da",
+									"Type":	"DistanceToBiomeEdge",
+									"Skip":	false
+								}]
+						}]
+				}]
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Exported.Density-ed27c3c9-2416-4644-ac84-4e381c084b99":	{
+				"$Position":	{
+					"$x":	-4191,
+					"$y":	-5985
+				},
+				"$Title":	"[ROOT] Exported Density"
+			},
+			"ClampDensityNode-affec01a-7109-4b54-bb8c-5d5c71fd4d7a":	{
+				"$Position":	{
+					"$x":	-3488,
+					"$y":	-5992
+				}
+			},
+			"SumDensityNode-a14d06ef-907e-4883-a068-186fc0ea1166":	{
+				"$Position":	{
+					"$x":	-2788,
+					"$y":	-5992
+				}
+			},
+			"CellNoise3DDensityNode-cddd136a-4674-4525-afaf-3aa2d0c648d0":	{
+				"$Position":	{
+					"$x":	-2088,
+					"$y":	-5992
+				}
+			},
+			"CurveMapper.Density-ead46712-65f5-45fc-b47b-76a300c93c6e":	{
+				"$Position":	{
+					"$x":	-2088,
+					"$y":	-5491
+				}
+			},
+			"ManualCurve-f8ca3042-6ef3-49cc-92c8-b29e389955fb":	{
+				"$Position":	{
+					"$x":	-1388,
+					"$y":	-5292
+				}
+			},
+			"CurvePoint-f09e69d8-ade4-49ea-8537-7832c983a9b3":	{
+				"$Position":	{
+					"$x":	-683,
+					"$y":	-5291
+				}
+			},
+			"CurvePoint-92e7f706-6e49-4aa2-80d8-a9911967ff8e":	{
+				"$Position":	{
+					"$x":	-683,
+					"$y":	-5091
+				}
+			},
+			"DistanceToBiomeEdge.Density-5f3ebffa-f041-4195-8ae7-22294755e8da":	{
+				"$Position":	{
+					"$x":	-1386,
+					"$y":	-5492
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[{
+				"$Position":	{
+					"$x":	750337,
+					"$y":	743170.5
+				},
+				"$width":	1520.6875,
+				"$height":	386.875,
+				"$name":	"Comment",
+				"$text":	"Use the river noise as the controller to save performance, mixing in a solid -0.3",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	749741.5,
+					"$y":	743999.875
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Mix a solid value using river Noise",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	749066.25,
+					"$y":	745239.625
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Mix in  the entire ocean field to ensure shores are being mapped",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	748431.625,
+					"$y":	745456.75
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	""
+			}, {
+				"$Position":	{
+					"$x":	749060.125,
+					"$y":	746350.25
+				},
+				"$width":	1178.0625,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"TODO: Evaluate mixing in solid values instead of duplicating the ocean as a mask",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	746517.375,
+					"$y":	743579.5
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	""
+			}, {
+				"$Position":	{
+					"$x":	746506,
+					"$y":	744291
+				},
+				"$width":	1035.6875,
+				"$height":	257.9375,
+				"$name":	"Comment",
+				"$text":	"Ensure entire field is 2D",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	747724.5,
+					"$y":	744293.75
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Debug Scaler",
+				"$fontSize":	53
+			}],
+		"$WorkspaceID":	"HytaleGenerator - Density"
+	}
+}
