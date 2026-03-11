@@ -3,7 +3,7 @@
 ---
 
 ### ⚠️ Early Development Phase
-Please note that this mod is currently a **Work In Progress** and currently features a single custom biome, and everything is subject to change.
+Please note that this mod is currently a **Work In Progress** and currently features a few custom biomes, and everything is subject to change.
 
 ---
 
@@ -21,5 +21,7 @@ Please note that this mod is currently a **Work In Progress** and currently feat
 - **Resting Giants:**
   - A vibrant, surreal overworld where lush vegetation grows and large, pale "spinal" structures cut through the main landscape.
   - Descend beneath the colorful surface into massive, treacherous caverns that offer a stark, nightmarish contrast to the beauty above.
+- **Voidlands:**
+  - A decaying archipelago of fractured islands drifting aimlessly over the void.
 
 *More biomes and structures are planned for future updates. Feedback is welcome!*
