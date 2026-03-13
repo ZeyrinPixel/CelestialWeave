@@ -3,7 +3,7 @@
 ---
 
 ### ⚠️ Early Development Phase
-Please note that this mod is currently a **Work In Progress** and currently features a few custom biomes, and everything is subject to change.
+Please note that this mod is currently a **Work In Progress**. It currently only features a few custom biomes, and everything is subject to change.
 
 ---
 

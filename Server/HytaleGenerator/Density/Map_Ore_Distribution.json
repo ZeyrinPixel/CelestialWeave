@@ -1,0 +1,144 @@
+{
+	"$NodeId":	"Exported.Density-ed27c3c9-2416-4644-ac84-4e381c084b99",
+	"Type":	"Exported",
+	"ExportAs":	"Ore-Distribution-Map",
+	"SingleInstance":	true,
+	"Skip":	false,
+	"Inputs":	[{
+			"$NodeId":	"Rotator.Density-c7d484df-2197-4b78-bdfa-9252950ef5fe",
+			"Type":	"Rotator",
+			"Skip":	false,
+			"SpinAngle":	75,
+			"NewYAxis":	{
+				"$NodeId":	"Point3D-9cc48014-5d18-4893-8f19-d7039ed2d7ba",
+				"X":	1,
+				"Y":	0,
+				"Z":	0
+			},
+			"Inputs":	[{
+					"$NodeId":	"CellNoise3DDensityNode-32f4843f-50b4-436e-b84b-21effa936c75",
+					"Type":	"CellNoise3D",
+					"Skip":	false,
+					"ScaleX":	256,
+					"ScaleY":	32,
+					"ScaleZ":	16,
+					"Jitter":	0.3,
+					"CellType":	"CellValue",
+					"Octaves":	2,
+					"Seed":	"A"
+				}]
+		}],
+	"$NodeEditorMetadata":	{
+		"$Nodes":	{
+			"Exported.Density-ed27c3c9-2416-4644-ac84-4e381c084b99":	{
+				"$Position":	{
+					"$x":	-4191,
+					"$y":	-5985
+				},
+				"$Title":	"[ROOT] Exported Density"
+			},
+			"Rotator.Density-c7d484df-2197-4b78-bdfa-9252950ef5fe":	{
+				"$Position":	{
+					"$x":	-3490,
+					"$y":	-5992
+				}
+			},
+			"Point3D-9cc48014-5d18-4893-8f19-d7039ed2d7ba":	{
+				"$Position":	{
+					"$x":	-2794,
+					"$y":	-5593
+				}
+			},
+			"CellNoise3DDensityNode-32f4843f-50b4-436e-b84b-21effa936c75":	{
+				"$Position":	{
+					"$x":	-2796,
+					"$y":	-5992
+				}
+			}
+		},
+		"$FloatingNodes":	[],
+		"$Links":	{
+		},
+		"$Groups":	[],
+		"$Comments":	[{
+				"$Position":	{
+					"$x":	750337,
+					"$y":	743170.5
+				},
+				"$width":	1520.6875,
+				"$height":	386.875,
+				"$name":	"Comment",
+				"$text":	"Use the river noise as the controller to save performance, mixing in a solid -0.3",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	749741.5,
+					"$y":	743999.875
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Mix a solid value using river Noise",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	749066.25,
+					"$y":	745239.625
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Mix in  the entire ocean field to ensure shores are being mapped",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	748431.625,
+					"$y":	745456.75
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	""
+			}, {
+				"$Position":	{
+					"$x":	749060.125,
+					"$y":	746350.25
+				},
+				"$width":	1178.0625,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"TODO: Evaluate mixing in solid values instead of duplicating the ocean as a mask",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	746517.375,
+					"$y":	743579.5
+				},
+				"$width":	250,
+				"$height":	150,
+				"$name":	"Comment",
+				"$text":	""
+			}, {
+				"$Position":	{
+					"$x":	746506,
+					"$y":	744291
+				},
+				"$width":	1035.6875,
+				"$height":	257.9375,
+				"$name":	"Comment",
+				"$text":	"Ensure entire field is 2D",
+				"$fontSize":	53
+			}, {
+				"$Position":	{
+					"$x":	747724.5,
+					"$y":	744293.75
+				},
+				"$width":	1035.6875,
+				"$height":	265.5625,
+				"$name":	"Comment",
+				"$text":	"Debug Scaler",
+				"$fontSize":	53
+			}],
+		"$WorkspaceID":	"HytaleGenerator - Density"
+	}
+}
