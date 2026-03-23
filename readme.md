@@ -21,6 +21,8 @@ Please note that this mod is currently a **Work In Progress**. It currently only
 - **Resting Giants:**
   - A vibrant, surreal overworld where lush vegetation grows and large, pale "spinal" structures cut through the main landscape.
   - Descend beneath the colorful surface into massive, treacherous caverns that offer a stark, nightmarish contrast to the beauty above.
+- **Whispering Dunes:**
+  - A vast expanse of golden dunes, where the winds carry whispers of ancient civilizations and sand formations shift to reveal hidden ruins. (Sounds/Structures not fully implemented)
 - **Voidlands:**
   - A decaying archipelago of fractured islands drifting aimlessly over the void.
 
