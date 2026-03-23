@@ -31,11 +31,16 @@
   "Biomes": [
     {
       "Biome": "RestingGiants",
-      "Max": -0.75
+      "Max": -0.8
+    },
+    {
+      "Biome": "WhisperingDunes",
+      "Min": -0.8,
+      "Max": -0.6
     },
     {
       "Biome": "Voidlands",
-      "Min": -0.75,
+      "Min": -0.6,
       "Max": -0.5
     }
   ]
