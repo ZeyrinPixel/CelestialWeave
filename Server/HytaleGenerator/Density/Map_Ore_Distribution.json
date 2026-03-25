@@ -24,7 +24,7 @@
 					"ScaleZ":	16,
 					"Jitter":	0.3,
 					"CellType":	"CellValue",
-					"Octaves":	2,
+					"Octaves":	1,
 					"Seed":	"A"
 				}]
 		}],

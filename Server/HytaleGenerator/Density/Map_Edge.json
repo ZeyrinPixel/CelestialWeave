@@ -22,7 +22,7 @@
 							"ScaleY":	32,
 							"ScaleZ":	32,
 							"Jitter":	0.5,
-							"CellType":	"CellValue",
+							"CellType":	"Distance2Div",
 							"Octaves":	2,
 							"Seed":	"A"
 						}, {
