@@ -165,7 +165,7 @@
 								"FieldFunction":	{
 									"$NodeId":	"SimplexNoise3DDensityNode-7587002e-f3bf-4c0d-95c6-78156d22f51a",
 									"Type":	"SimplexNoise3D",
-									"ExportAs":	"Simplex-64-32",
+									"ExportAs":	"",
 									"Skip":	false,
 									"Lacunarity":	2,
 									"Persistence":	0.5,
@@ -2077,10 +2077,22 @@
 					"$y":	711
 				}
 			},
+			"WeightedPath.Prefab.Prop-d175b0e8-a172-4709-bb5b-f447d40f9a4f":	{
+				"$Position":	{
+					"$x":	-1493,
+					"$y":	706
+				}
+			},
 			"WeightedPath.Prefab.Prop-a755a858-32a7-4ae0-ac20-722376a7c4c7":	{
 				"$Position":	{
 					"$x":	-1494,
 					"$y":	886
+				}
+			},
+			"WeightedPath.Prefab.Prop-621bc7da-3664-4257-8239-995da82dcfdd":	{
+				"$Position":	{
+					"$x":	-1490,
+					"$y":	1088
 				}
 			},
 			"WeightedPath.Prefab.Prop-2721d1ee-28e5-4d8b-99b7-23603613f078":	{
@@ -2819,18 +2831,6 @@
 				"$Position":	{
 					"$x":	-5646,
 					"$y":	-5769
-				}
-			},
-			"WeightedPath.Prefab.Prop-621bc7da-3664-4257-8239-995da82dcfdd":	{
-				"$Position":	{
-					"$x":	-1490,
-					"$y":	1088
-				}
-			},
-			"WeightedPath.Prefab.Prop-d175b0e8-a172-4709-bb5b-f447d40f9a4f":	{
-				"$Position":	{
-					"$x":	-1493,
-					"$y":	706
 				}
 			}
 		},
