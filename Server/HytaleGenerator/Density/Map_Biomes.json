@@ -98,13 +98,14 @@
 																															"ToMin":	-0.85,
 																															"ToMax":	0.85,
 																															"Inputs":	[{
-																																	"$NodeId":	"SimplexNoise2DDensityNode-ef0823c0-ed1d-4298-b7d7-e449509c0409",
-																																	"Type":	"SimplexNoise2D",
+																																	"$NodeId":	"CellNoise2DDensityNode-dc6df88b-061c-4ff4-bfc9-de8b83e49e9e",
+																																	"Type":	"CellNoise2D",
 																																	"Skip":	false,
-																																	"Lacunarity":	8,
-																																	"Persistence":	0.1,
+																																	"ScaleX":	1500,
+																																	"ScaleZ":	1500,
+																																	"Jitter":	0.3,
+																																	"CellType":	"Distance2Div",
 																																	"Octaves":	1,
-																																	"Scale":	1500,
 																																	"Seed":	"A"
 																																}]
 																														}, {
@@ -116,13 +117,14 @@
 																															"ToMin":	-0.1,
 																															"ToMax":	0.1,
 																															"Inputs":	[{
-																																	"$NodeId":	"SimplexNoise2DDensityNode-8c65e93f-c5c1-4351-a398-1107074adfab",
-																																	"Type":	"SimplexNoise2D",
+																																	"$NodeId":	"CellNoise2DDensityNode-9743562c-7c18-45bd-b8c3-73cfdf634acd",
+																																	"Type":	"CellNoise2D",
 																																	"Skip":	false,
-																																	"Lacunarity":	8,
-																																	"Persistence":	0.1,
+																																	"ScaleX":	150,
+																																	"ScaleZ":	150,
+																																	"Jitter":	0.3,
+																																	"CellType":	"Distance2Div",
 																																	"Octaves":	1,
-																																	"Scale":	150,
 																																	"Seed":	"B"
 																																}]
 																														}, {
@@ -134,13 +136,14 @@
 																															"ToMin":	-0.05,
 																															"ToMax":	0.05,
 																															"Inputs":	[{
-																																	"$NodeId":	"SimplexNoise2DDensityNode-9fdb0a11-3d7b-4e34-9dcf-7daad6751d9a",
-																																	"Type":	"SimplexNoise2D",
+																																	"$NodeId":	"CellNoise2DDensityNode-450b1fdb-91bc-411c-bdee-fc87267ad06a",
+																																	"Type":	"CellNoise2D",
 																																	"Skip":	false,
-																																	"Lacunarity":	8,
-																																	"Persistence":	0.1,
+																																	"ScaleX":	100,
+																																	"ScaleZ":	100,
+																																	"Jitter":	0.3,
+																																	"CellType":	"Distance2Div",
 																																	"Octaves":	1,
-																																	"Scale":	100,
 																																	"Seed":	"C"
 																																}]
 																														}]
@@ -173,14 +176,14 @@
 																	"Type":	"Sum",
 																	"Skip":	false,
 																	"Inputs":	[{
-																			"$NodeId":	"SimplexNoise2DDensityNode-419f4023-9074-4c98-9703-8c2ce47af70d",
-																			"Type":	"SimplexNoise2D",
-																			"ExportAs":	"",
+																			"$NodeId":	"CellNoise2DDensityNode-851e792a-8686-4726-ae1a-56bd0ea44b9d",
+																			"Type":	"CellNoise2D",
 																			"Skip":	false,
-																			"Lacunarity":	5,
-																			"Persistence":	0.3,
+																			"ScaleX":	5000,
+																			"ScaleZ":	5000,
+																			"Jitter":	0.3,
+																			"CellType":	"Distance2Div",
 																			"Octaves":	3,
-																			"Scale":	5000,
 																			"Seed":	"World-Continent-Map"
 																		}, {
 																			"$NodeId":	"Distance.Density-3ab4e84f-ef02-40bb-827c-fe1d6a9d53c6",
@@ -209,13 +212,14 @@
 																	"ToMin":	-0.5,
 																	"ToMax":	1,
 																	"Inputs":	[{
-																			"$NodeId":	"SimplexNoise2DDensityNode-52531ad6-020c-44e1-9d12-e0c37b1b25db",
-																			"Type":	"SimplexNoise2D",
+																			"$NodeId":	"CellNoise2DDensityNode-6101e6b5-6c26-4125-909d-e02ac29e1c27",
+																			"Type":	"CellNoise2D",
 																			"Skip":	false,
-																			"Lacunarity":	5,
-																			"Persistence":	0.3,
+																			"ScaleX":	1000,
+																			"ScaleZ":	1000,
+																			"Jitter":	0.3,
+																			"CellType":	"Distance2Div",
 																			"Octaves":	2,
-																			"Scale":	1000,
 																			"Seed":	"World-Continent-Map-B"
 																		}]
 																}]
@@ -471,9 +475,85 @@
 					"$x":	258,
 					"$y":	-3979
 				}
+			},
+			"CellNoise2DDensityNode-dc6df88b-061c-4ff4-bfc9-de8b83e49e9e":	{
+				"$Position":	{
+					"$x":	5356,
+					"$y":	-6921
+				}
+			},
+			"CellNoise2DDensityNode-9743562c-7c18-45bd-b8c3-73cfdf634acd":	{
+				"$Position":	{
+					"$x":	5930,
+					"$y":	-6923
+				}
+			},
+			"CellNoise2DDensityNode-450b1fdb-91bc-411c-bdee-fc87267ad06a":	{
+				"$Position":	{
+					"$x":	6481,
+					"$y":	-6920
+				}
+			},
+			"CellNoise2DDensityNode-851e792a-8686-4726-ae1a-56bd0ea44b9d":	{
+				"$Position":	{
+					"$x":	1886,
+					"$y":	-5526
+				}
+			},
+			"CellNoise2DDensityNode-6101e6b5-6c26-4125-909d-e02ac29e1c27":	{
+				"$Position":	{
+					"$x":	1671,
+					"$y":	-3463
+				}
 			}
 		},
-		"$FloatingNodes":	[],
+		"$FloatingNodes":	[{
+				"$NodeId":	"SimplexNoise2DDensityNode-ef0823c0-ed1d-4298-b7d7-e449509c0409",
+				"Type":	"SimplexNoise2D",
+				"Skip":	false,
+				"Lacunarity":	8,
+				"Persistence":	0.1,
+				"Octaves":	1,
+				"Scale":	1500,
+				"Seed":	"A"
+			}, {
+				"$NodeId":	"SimplexNoise2DDensityNode-8c65e93f-c5c1-4351-a398-1107074adfab",
+				"Type":	"SimplexNoise2D",
+				"Skip":	false,
+				"Lacunarity":	8,
+				"Persistence":	0.1,
+				"Octaves":	1,
+				"Scale":	150,
+				"Seed":	"B"
+			}, {
+				"$NodeId":	"SimplexNoise2DDensityNode-9fdb0a11-3d7b-4e34-9dcf-7daad6751d9a",
+				"Type":	"SimplexNoise2D",
+				"Skip":	false,
+				"Lacunarity":	8,
+				"Persistence":	0.1,
+				"Octaves":	1,
+				"Scale":	100,
+				"Seed":	"C"
+			}, {
+				"$NodeId":	"SimplexNoise2DDensityNode-419f4023-9074-4c98-9703-8c2ce47af70d",
+				"Type":	"SimplexNoise2D",
+				"ExportAs":	"",
+				"Skip":	false,
+				"Lacunarity":	5,
+				"Persistence":	0.3,
+				"Octaves":	3,
+				"Scale":	5000,
+				"Seed":	"World-Continent-Map"
+			}, {
+				"$NodeId":	"SimplexNoise2DDensityNode-52531ad6-020c-44e1-9d12-e0c37b1b25db",
+				"Type":	"SimplexNoise2D",
+				"Skip":	false,
+				"Lacunarity":	5,
+				"Persistence":	0.3,
+				"Octaves":	2,
+				"Scale":	1000,
+				"Seed":	"World-Continent-Map-B"
+			}],
 		"$Links":	{
 		},
 		"$Groups":	[{
