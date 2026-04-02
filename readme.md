@@ -23,6 +23,8 @@ Please note that this mod is currently a **Work In Progress**. It currently only
   - Descend beneath the colorful surface into massive, treacherous caverns that offer a stark, nightmarish contrast to the beauty above.
 - **Whispering Dunes:**
   - A vast expanse of golden dunes, where the winds carry whispers of ancient civilizations and sand formations shift to reveal hidden ruins. (Sounds/Structures not fully implemented)
+- **Salt Roughs**
+  - Water seeps out of the cracks in a landscape of towering salt pillars. Rare luminescent gems grow scattered throughout the terrain, forming in the mineral-rich waters.
 - **Voidlands:**
   - A decaying archipelago of fractured islands drifting aimlessly over the void.
 
