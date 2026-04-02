@@ -1,6 +1,5 @@
 {
   "Type": "NoiseRange",
-  "DefaultBiome": "Void",
   "MaxBiomeEdgeDistance": 32,
   "DefaultTransitionDistance": 32,
   "Density": {
@@ -28,6 +27,7 @@
       ]
     }
   ],
+  "DefaultBiome": "Void",
   "Biomes": [
     {
       "Biome": "RestingGiants",
@@ -42,6 +42,11 @@
       "Biome": "Voidlands",
       "Min": -0.65,
       "Max": -0.5
+    },
+    {
+      "Biome": "SaltRoughs",
+      "Min": -0.5,
+      "Max": 0
     }
   ]
 }
