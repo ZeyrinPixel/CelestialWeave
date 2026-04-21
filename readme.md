@@ -3,16 +3,14 @@
 ---
 
 ### ⚠️ Early Development Phase
-Please note that this mod is currently a **Work In Progress**. It currently only features a few custom biomes, and everything is subject to change.
+Please note that this mod is currently a **Work In Progress**. It currently only features a few custom biomes and a portal to reach the world, everything is subject to change.
 
 ---
 
 ## __Instructions__
 1. Place .zip in Hytale mods folder
 2. Enable mod on world
-3. Be op (`/op self`)
-4. Activate World Gen V2 (`/world settings worldgentype set HytaleGenerator`)
-5. Reload world (`/worldgen reload --clear`)
+3. Celesital Weave Portal and Return Portal can be found in the Arcane crafting bench or creative inventory
 
 ---
 
