@@ -50,7 +50,7 @@
         "Interactions": [
           {
             "Type": "HubPortal",
-            "WorldName": "default_world",
+            "WorldName": "default",
             "WorldGenType": "Hytale",
             "Next": {
               "Type": "Simple",
