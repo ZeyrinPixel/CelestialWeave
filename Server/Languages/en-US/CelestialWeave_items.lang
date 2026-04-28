@@ -1,5 +1,7 @@
 server.items.Hub_Portal_Return.name = Return Portal
 server.items.Hub_Portal_Return.description = Use to return to the normal world
+server.items.Hub_Portal_Broken.name = Broken Portal
+server.items.Hub_Portal_Broken.description = Repair at an Arcane crafting bench
 server.items.Hub_Portal_Celestial_Weave.name = Celestial Weave Portal
 server.items.Hub_Portal_Celestial_Weave.description = Use to enter the Celestial Weave
 server.items.Soil_Grass_Deep_Full_Inverted.name = Inverted Lush Full Grass

@@ -52,6 +52,11 @@
       "Biome": "SaltRoughs",
       "Min": -0.4,
       "Max": 0
+    },
+    {
+      "Max": 1,
+      "Min": 0.8,
+      "Biome": "CelestialLoom"
     }
   ]
 }

@@ -28,7 +28,7 @@
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
-        "ItemId": "Hub_Portal_Return"
+        "ItemId": "Hub_Portal_Broken"
       }
     },
     "Light": {
@@ -62,7 +62,7 @@
         ]
       }
     },
-    "CustomModelAnimation": "Blocks/Miscellaneous/Platform_Magic_Idle.blockyanim"
+    "CustomModelAnimation": "Blocks/Miscellaneous/Platform_Magic_Activate.blockyanim"
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
@@ -89,6 +89,9 @@
     "KnowledgeRequired": false,
     "Input": [
       {
+        "ItemId": "Hub_Portal_Broken"
+      },
+      {
         "ItemId": "Plant_Fruit_Azure"
       },
       {
@@ -96,6 +99,9 @@
       },
       {
         "ItemId": "Ingredient_Bar_Thorium"
+      },
+      {
+        "ItemId": "Ingredient_Bar_Mithril"
       },
       {
         "ItemId": "Rock_Gem_Diamond"
@@ -110,5 +116,6 @@
         ]
       }
     ]
-  }
+  },
+  "Quality": "Rare"
 }

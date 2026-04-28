@@ -28,7 +28,7 @@
     "Gathering": {
       "Breaking": {
         "GatherType": "Rocks",
-        "ItemId": "Hub_Portal_Celestial_Weave"
+        "ItemId": "Hub_Portal_Broken"
       }
     },
     "Light": {
@@ -62,7 +62,7 @@
         ]
       }
     },
-    "CustomModelAnimation": "Blocks/Miscellaneous/Platform_Magic_Idle.blockyanim"
+    "CustomModelAnimation": "Blocks/Miscellaneous/Platform_Magic_Activate.blockyanim"
   },
   "PlayerAnimationsId": "Block",
   "Tags": {
@@ -89,7 +89,11 @@
     "KnowledgeRequired": false,
     "Input": [
       {
-        "ItemId": "Deco_Rope"
+        "ItemId": "Hub_Portal_Broken"
+      },
+      {
+        "ItemId": "Deco_Rope",
+        "Quantity": 6
       },
       {
         "ItemId": "Ingredient_Fire_Essence"
@@ -119,5 +123,6 @@
         ]
       }
     ]
-  }
+  },
+  "Quality": "Rare"
 }
