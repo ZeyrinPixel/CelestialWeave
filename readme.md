@@ -3,7 +3,9 @@
 ---
 
 ### ⚠️ Early Development Phase
-Please note that this mod is currently a **Work In Progress**. It currently only features a few custom biomes and portals to reach the world, everything is subject to change.
+Please note that this mod is currently a **Work In Progress**.
+It currently only features a few custom biomes and portals to reach the world, everything is subject to change.
+Performance is not fully optimized, so expect slow loading when entering the dimension.
 
 ---
 

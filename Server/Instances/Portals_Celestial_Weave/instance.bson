@@ -1,4 +1,15 @@
 {
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": 0.5,
+      "Y": 182.5,
+      "Z": 0.5,
+      "Pitch": 0.0,
+      "Yaw": 0.0,
+      "Roll": 0.0
+    }
+  },
   "WorldGen": {
     "Type": "HytaleGenerator",
     "WorldStructure": "Celestial_Weave",
