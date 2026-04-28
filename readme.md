@@ -23,6 +23,7 @@ Please note that this mod is currently a **Work In Progress**. It currently only
   - Use to enter the Celestial Weave
 - **Return Portal:**
   - Crafted from a Broken Portal and a resource found in each of the Celestial Weave biomes.
+  - Use to return to your original world (default world)
 ### Locations:
 - **Celestial Loom:**
   - The remnants of a massive loom once capable of weaving dimensions together.
